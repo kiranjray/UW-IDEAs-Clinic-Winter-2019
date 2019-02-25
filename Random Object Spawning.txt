@@ -12,7 +12,7 @@ public class SpawnObjec : MonoBehaviour {
     int whatToSpawn;
    
 
-
+    // This script spawns a random prefab in an area after a certain number of seconds determined by the public variable spawnRate.  
     void Update()
     {
         if (Time.time > nextSpawn)
