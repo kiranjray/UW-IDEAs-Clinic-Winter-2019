@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObjec : MonoBehaviour {
+public class SpawnObject : MonoBehaviour {
 
     public GameObject Prefab1, Prefab2, Prefab3, Prefab4;
     public float spawnRate = 10f;
